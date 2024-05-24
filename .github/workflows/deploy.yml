@@ -3,9 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: 'deployment'
-  pull_request:
-    branches: 'deployment'
-  workflow_dispatch:
 
 jobs:
   build_site:
